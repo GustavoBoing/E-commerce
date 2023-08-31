@@ -112,9 +112,9 @@ const catalogo = [{
 for (const produtoCatalogo of catalogo){
 
     const cartaoProduto = 
-    `<div id="card-produto-1">
-        <img src="image/${produtoCatalogo.imagem}" alt="${produtoCatalogo.alt}Camiseta Estados Unidos" style="width: 250; height: 250px;">
-        <p>${produtoCatalogo.marca}</p>
+    `<div class="border-solid border-2 border-sky-500 w-60 my-2" id="card-produto-${produtoCatalogo.id}">
+        <img src="image/${produtoCatalogo.imagem}" alt="${produtoCatalogo.alt}Camiseta Estados Unidos" style="width: 245px; height: 230px;">
+        <p class='marca'>${produtoCatalogo.marca}</p>
         <p>${produtoCatalogo.nome}</p>
         <p>R$${produtoCatalogo.preco}</p>
         <button>Carrinho</button>

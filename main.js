@@ -96,16 +96,16 @@ const catalogo = [{
         imagem: 'fla-fem.jpg',
         alt:'Camiseta Flamengo 22/23 feminina',
         feminina: true
-    },
-    {
-        id: 9, 
-        nome: 'Camiseta São Paulo 22/23 feminina',
-        marca: 'Nike',
-        preco: 129.90,
-        imagem: 'spfc-fem.jpg',
-        alt:'Camiseta São Paulo 22/23 feminina',
-        feminina: true
     }
+    // {
+    //     id: 9, 
+    //     nome: 'Camiseta São Paulo 22/23 feminina',
+    //     marca: 'Nike',
+    //     preco: 129.90,
+    //     imagem: 'spfc-fem.jpg',
+    //     alt:'Camiseta São Paulo 22/23 feminina',
+    //     feminina: true
+    // }
 ];
 
 //para cada produto do catalago de catalogo executa o que está dentro do for
